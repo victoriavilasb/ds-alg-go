@@ -28,7 +28,7 @@ func NewLinkedList(max_size int) *LinkedList {
 
 func (ll *LinkedList) InsertNodeInFrom(n *Node) error {
 	if ll.Size == ll.Max_size {
-		return errors.New("cannot insert another element, list is full")
+		return errors.New("list is full")
 	}
 
 	ll.Size++
