@@ -1,8 +1,8 @@
 package main
 
-import "alg_and_data_structures/structures"
+import ll "alg_and_data_structures/structures/linked_list"
 
 func main() {
-	list := structures.NewLinkedList(2)
+	list := ll.NewLinkedList(2)
 	list.InsertInFront(1)
 }
